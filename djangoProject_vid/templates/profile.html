@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'blog/css/profile.css' %}">
+    <title>Profile</title>
+</head>
+<body>
+<div class="card-container">
+	<span class="pro">PRO</span>
+	<img class="round" src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+	<h3>Ricky Park</h3>
+	<h6>New York</h6>
+	<p>User interface designer and <br/> front-end developer</p>
+	<div class="buttons">
+		<button class="primary">
+			Message
+		</button>
+		<button class="primary ghost">
+			Following
+		</button>
+	</div>
+	<div class="skills">
+		<h6>Skills</h6>
+		<ul>
+			<li>UI / UX</li>
+			<li>Front End Development</li>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JavaScript</li>
+			<li>React</li>
+			<li>Node</li>
+		</ul>
+	</div>
+</div>
+
+<footer>
+	<p>
+		Created with <i class="fa fa-heart"></i> by
+		<a target="_blank" href="https://en.wikipedia.org/wiki/Sloth">Ленивец.</a>
+		<a target="_blank" href="https://vk.com/kama.trick">- Не пишите сюда, пожалуйста.</a>
+		- И сюда тоже не надо писать:
+		<a target="_blank" href="https://vk.com/seamadesailors">тык</a>
+	</p>
+</footer>
+</body>
+</html>
